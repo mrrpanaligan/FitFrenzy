@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		388B6E232C57A4FE0093956A /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E222C57A4FE0093956A /* LocationDetailsView.swift */; };
 		38A854BA2C5787E40036D517 /* FitFrenzyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A854B92C5787E40036D517 /* FitFrenzyApp.swift */; };
 		38A854BC2C5787E40036D517 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A854BB2C5787E40036D517 /* ContentView.swift */; };
 		38A854BE2C5787E60036D517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A854BD2C5787E60036D517 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		388B6E222C57A4FE0093956A /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
 		38A854B62C5787E40036D517 /* FitFrenzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFrenzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A854B92C5787E40036D517 /* FitFrenzyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFrenzyApp.swift; sourceTree = "<group>"; };
 		38A854BB2C5787E40036D517 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		38A854AD2C5787E40036D517 = {
 			isa = PBXGroup;
 			children = (
+				388B6E222C57A4FE0093956A /* LocationDetailsView.swift */,
 				38A854B82C5787E40036D517 /* FitFrenzy */,
 				38A854C92C5787E60036D517 /* FitFrenzyTests */,
 				38A854D32C5787E60036D517 /* FitFrenzyUITests */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A854BC2C5787E40036D517 /* ContentView.swift in Sources */,
+				388B6E232C57A4FE0093956A /* LocationDetailsView.swift in Sources */,
 				38A854BA2C5787E40036D517 /* FitFrenzyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +429,7 @@
 				DEVELOPMENT_TEAM = CQ8MJR8KLW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +459,7 @@
 				DEVELOPMENT_TEAM = CQ8MJR8KLW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
