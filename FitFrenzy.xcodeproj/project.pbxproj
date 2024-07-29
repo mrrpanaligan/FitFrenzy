@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		388B6E232C57A4FE0093956A /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E222C57A4FE0093956A /* LocationDetailsView.swift */; };
+		388B6E252C57BA630093956A /* FitFrenzyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E242C57BA620093956A /* FitFrenzyView.swift */; };
+		388B6E292C57BC580093956A /* FitFrenzyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E282C57BC580093956A /* FitFrenzyTabView.swift */; };
+		388B6E2B2C57BCA60093956A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E2A2C57BCA60093956A /* HomeView.swift */; };
+		388B6E2F2C57C3110093956A /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E2E2C57C3110093956A /* FitnessView.swift */; };
+		388B6E312C57C81C0093956A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E302C57C81C0093956A /* CircleImage.swift */; };
+		388B6E332C57CC8C0093956A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E322C57CC8C0093956A /* ProfileView.swift */; };
+		388B6E352C57CD500093956A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E342C57CD500093956A /* MapView.swift */; };
 		38A854BA2C5787E40036D517 /* FitFrenzyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A854B92C5787E40036D517 /* FitFrenzyApp.swift */; };
 		38A854BC2C5787E40036D517 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A854BB2C5787E40036D517 /* ContentView.swift */; };
 		38A854BE2C5787E60036D517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A854BD2C5787E60036D517 /* Assets.xcassets */; };
@@ -35,7 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		388B6E222C57A4FE0093956A /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
+		388B6E242C57BA620093956A /* FitFrenzyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFrenzyView.swift; sourceTree = "<group>"; };
+		388B6E282C57BC580093956A /* FitFrenzyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFrenzyTabView.swift; sourceTree = "<group>"; };
+		388B6E2A2C57BCA60093956A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		388B6E2E2C57C3110093956A /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
+		388B6E302C57C81C0093956A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		388B6E322C57CC8C0093956A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		388B6E342C57CD500093956A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		38A854B62C5787E40036D517 /* FitFrenzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFrenzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A854B92C5787E40036D517 /* FitFrenzyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFrenzyApp.swift; sourceTree = "<group>"; };
 		38A854BB2C5787E40036D517 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,7 +88,6 @@
 		38A854AD2C5787E40036D517 = {
 			isa = PBXGroup;
 			children = (
-				388B6E222C57A4FE0093956A /* LocationDetailsView.swift */,
 				38A854B82C5787E40036D517 /* FitFrenzy */,
 				38A854C92C5787E60036D517 /* FitFrenzyTests */,
 				38A854D32C5787E60036D517 /* FitFrenzyUITests */,
@@ -101,6 +112,13 @@
 				38A854BB2C5787E40036D517 /* ContentView.swift */,
 				38A854BD2C5787E60036D517 /* Assets.xcassets */,
 				38A854BF2C5787E60036D517 /* Preview Content */,
+				388B6E242C57BA620093956A /* FitFrenzyView.swift */,
+				388B6E282C57BC580093956A /* FitFrenzyTabView.swift */,
+				388B6E2A2C57BCA60093956A /* HomeView.swift */,
+				388B6E2E2C57C3110093956A /* FitnessView.swift */,
+				388B6E302C57C81C0093956A /* CircleImage.swift */,
+				388B6E322C57CC8C0093956A /* ProfileView.swift */,
+				388B6E342C57CD500093956A /* MapView.swift */,
 			);
 			path = FitFrenzy;
 			sourceTree = "<group>";
@@ -260,8 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388B6E332C57CC8C0093956A /* ProfileView.swift in Sources */,
+				388B6E292C57BC580093956A /* FitFrenzyTabView.swift in Sources */,
+				388B6E2F2C57C3110093956A /* FitnessView.swift in Sources */,
+				388B6E252C57BA630093956A /* FitFrenzyView.swift in Sources */,
+				388B6E312C57C81C0093956A /* CircleImage.swift in Sources */,
+				388B6E2B2C57BCA60093956A /* HomeView.swift in Sources */,
 				38A854BC2C5787E40036D517 /* ContentView.swift in Sources */,
-				388B6E232C57A4FE0093956A /* LocationDetailsView.swift in Sources */,
+				388B6E352C57CD500093956A /* MapView.swift in Sources */,
 				38A854BA2C5787E40036D517 /* FitFrenzyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
