@@ -13,7 +13,6 @@
 		388B6E2F2C57C3110093956A /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E2E2C57C3110093956A /* FitnessView.swift */; };
 		388B6E312C57C81C0093956A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E302C57C81C0093956A /* CircleImage.swift */; };
 		388B6E332C57CC8C0093956A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E322C57CC8C0093956A /* ProfileView.swift */; };
-		388B6E352C57CD500093956A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B6E342C57CD500093956A /* MapView.swift */; };
 		38A854BA2C5787E40036D517 /* FitFrenzyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A854B92C5787E40036D517 /* FitFrenzyApp.swift */; };
 		38A854BC2C5787E40036D517 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A854BB2C5787E40036D517 /* ContentView.swift */; };
 		38A854BE2C5787E60036D517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A854BD2C5787E60036D517 /* Assets.xcassets */; };
@@ -21,6 +20,8 @@
 		38A854CB2C5787E60036D517 /* FitFrenzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A854CA2C5787E60036D517 /* FitFrenzyTests.swift */; };
 		38A854D52C5787E60036D517 /* FitFrenzyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A854D42C5787E60036D517 /* FitFrenzyUITests.swift */; };
 		38A854D72C5787E60036D517 /* FitFrenzyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A854D62C5787E60036D517 /* FitFrenzyUITestsLaunchTests.swift */; };
+		38BDC36D2C58D76700E5BD93 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BDC36C2C58D76700E5BD93 /* ActivityCard.swift */; };
+		38BDC3712C58DC9500E5BD93 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BDC3702C58DC9500E5BD93 /* HealthManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,6 @@
 		388B6E2E2C57C3110093956A /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
 		388B6E302C57C81C0093956A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		388B6E322C57CC8C0093956A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		388B6E342C57CD500093956A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		38A854B62C5787E40036D517 /* FitFrenzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFrenzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A854B92C5787E40036D517 /* FitFrenzyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFrenzyApp.swift; sourceTree = "<group>"; };
 		38A854BB2C5787E40036D517 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +58,9 @@
 		38A854D02C5787E60036D517 /* FitFrenzyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFrenzyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A854D42C5787E60036D517 /* FitFrenzyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFrenzyUITests.swift; sourceTree = "<group>"; };
 		38A854D62C5787E60036D517 /* FitFrenzyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFrenzyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38BDC36C2C58D76700E5BD93 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		38BDC3702C58DC9500E5BD93 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		38BDC3722C58DE7F00E5BD93 /* FitFrenzy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitFrenzy.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 		38A854B82C5787E40036D517 /* FitFrenzy */ = {
 			isa = PBXGroup;
 			children = (
+				38BDC3722C58DE7F00E5BD93 /* FitFrenzy.entitlements */,
+				38BDC3702C58DC9500E5BD93 /* HealthManager.swift */,
 				38A854B92C5787E40036D517 /* FitFrenzyApp.swift */,
 				38A854BB2C5787E40036D517 /* ContentView.swift */,
 				38A854BD2C5787E60036D517 /* Assets.xcassets */,
@@ -118,7 +123,7 @@
 				388B6E2E2C57C3110093956A /* FitnessView.swift */,
 				388B6E302C57C81C0093956A /* CircleImage.swift */,
 				388B6E322C57CC8C0093956A /* ProfileView.swift */,
-				388B6E342C57CD500093956A /* MapView.swift */,
+				38BDC36C2C58D76700E5BD93 /* ActivityCard.swift */,
 			);
 			path = FitFrenzy;
 			sourceTree = "<group>";
@@ -280,13 +285,14 @@
 			files = (
 				388B6E332C57CC8C0093956A /* ProfileView.swift in Sources */,
 				388B6E292C57BC580093956A /* FitFrenzyTabView.swift in Sources */,
+				38BDC36D2C58D76700E5BD93 /* ActivityCard.swift in Sources */,
 				388B6E2F2C57C3110093956A /* FitnessView.swift in Sources */,
 				388B6E252C57BA630093956A /* FitFrenzyView.swift in Sources */,
 				388B6E312C57C81C0093956A /* CircleImage.swift in Sources */,
 				388B6E2B2C57BCA60093956A /* HomeView.swift in Sources */,
 				38A854BC2C5787E40036D517 /* ContentView.swift in Sources */,
-				388B6E352C57CD500093956A /* MapView.swift in Sources */,
 				38A854BA2C5787E40036D517 /* FitFrenzyApp.swift in Sources */,
+				38BDC3712C58DC9500E5BD93 /* HealthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,12 +453,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitFrenzy/FitFrenzy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FitFrenzy/Preview Content\"";
 				DEVELOPMENT_TEAM = CQ8MJR8KLW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy all feature of this application";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -477,12 +485,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitFrenzy/FitFrenzy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FitFrenzy/Preview Content\"";
 				DEVELOPMENT_TEAM = CQ8MJR8KLW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy all feature of this application";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
