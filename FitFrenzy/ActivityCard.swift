@@ -30,10 +30,10 @@ struct ActivityCard: View {
                             }
                             Spacer()
                             
-                            Image(systemName: activity.image)
+                            Image(systemName: activity.image).foregroundColor(.green)
                         }
-                Text(activity.amount).font(.system(size: 24))
-                        
+                Text(activity.amount).font(.system(size: 20)).minimumScaleFactor(0.6).bold()
+            
                     }
                 .cornerRadius(10)
                 .padding()
@@ -43,5 +43,5 @@ struct ActivityCard: View {
 }
 
 #Preview {
-    ActivityCard(activity: Activity(id: 0, title: "Daily steps", subtitle: "Goal: 10,000", image: "figure.walk", amount: "6,123"))
+    ActivityCard(activity: Activity(id: 0, title: "Daily steps", subtitle: "Goal: 10,000", image: "figure.walk",amount: "6,123"))
 }
